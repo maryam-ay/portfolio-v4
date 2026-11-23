@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/os",
+      "destination": "https://maryam-os-portfolio-git-main-maryams-projects-f70da58d.vercel.app/"
+    },
+    {
+      "source": "/os/:path*",
+      "destination": "https://maryam-os-portfolio-git-main-maryams-projects-f70da58d.vercel.app/:path*"
+    }
+  ]
+}
